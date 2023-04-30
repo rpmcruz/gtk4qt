@@ -47,7 +47,7 @@ If you want to colaborate, subscribe the mailing list and check the code. If you
 
 The need to specify the rectangular area of each subpart of a widget and having to draw widgets parts in such a non-modular way is cut down to two methods: one to draw simple primitives (like the arrow in a combo box), the other to specify certain attributes (like the border of said arrow).
 
-Plus, this provides an uniform structure and "out of box" support for such things as high lighting. And you won't loose flexibility; in the worse case, you can always over-rule a QStyle function to do what you want and then pass it to QSimpleStyle for the rest.
+Plus, this provides an uniform structure and "out of box" support for such things as highlighting. And you won't lose flexibility; in the worse case, you can always over-rule a QStyle function to do what you want and then pass it to QSimpleStyle for the rest.
 
 Developers that want to port their styles from/to GTK+, may have a particular interest in this as the paradigm is similar to that of GTK+.
 
